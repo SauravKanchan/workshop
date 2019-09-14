@@ -1,8 +1,13 @@
-number = "5"
+from random import randrange
+number = randrange(1,10)
+# print(number)
 choice = ""
 while number != choice:
-    choice = input("Enter your number")
+    choice = int(input("Enter your number"))
     if choice == number:
         print("Number matched")
     else:
-        print("Not matched")
+        if choice> number:
+            print("Please enter a lower value")
+        else:
+            print("Enter a higher value")
