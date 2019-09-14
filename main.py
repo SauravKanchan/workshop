@@ -1,3 +1,5 @@
-number  = 4
-print(number,"X",1, "=",number*1)
-print(number,"X",2, "=",number*2)
+for i in range(0,5):
+    print("Hello", i)
+    print(2*i)
+
+print("End of loop")
