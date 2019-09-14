@@ -31,3 +31,6 @@ while choice != 0:
     else:
         print("Invalid option")
 
+# Bonus code
+# print(eval(input()))
+
