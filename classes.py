@@ -19,3 +19,8 @@ person = Person("Saurav","Kanchan")
 # person.set_name("Jhon","Doe")
 # person.say_hi()
 print(person.get_name())
+'''
+Task:
+Make a class name calculator
+It should have functions of add, subtract and division
+'''
