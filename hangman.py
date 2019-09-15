@@ -1,8 +1,9 @@
 word = "secrate"
-for i in range(10):
+count = 10
+for i in range(count):
     guess = input("Type your guess")
     if word == guess:
         print("Matched")
         break
     else:
-        print("Not matched",i,"tries remaining")
+        print("Not matched",count-i-1,"tries remaining")
