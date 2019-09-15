@@ -1,6 +1,6 @@
 class Person():
     def __init__(self,first_name, last_name):
-        print("Hello",first_name, last_name)
+        print("Hel lo",first_name, last_name)
         self.first_name = first_name
         self.last_name = last_name
 
@@ -19,8 +19,3 @@ person = Person("Saurav","Kanchan")
 # person.set_name("Jhon","Doe")
 # person.say_hi()
 print(person.get_name())
-'''
-Task:
-Make a class name calculator
-It should have functions of add, subtract and division
-'''
